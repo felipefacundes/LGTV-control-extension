@@ -1,0 +1,82 @@
+{
+   "app_list_label": {
+      "description": "apps list dropdown label",
+      "message": "apps"
+   },
+   "background_color_label": {
+      "description": "color selector label",
+      "message": "Popup window background color:"
+   },
+   "channel_list_label": {
+      "description": "channel list dropdown label",
+      "message": "channels"
+   },
+   "channel_search_label": {
+      "description": "channel search dropdown label",
+      "message": "channel search"
+   },
+   "clear_auth_cache": {
+      "description": "clear auth cache button label",
+      "message": "clear auth cache"
+   },
+   "connection_to_device": {
+      "description": "connection test status message",
+      "message": "Connection to device"
+   },
+   "device_ip_label": {
+      "description": "device ip input label",
+      "message": "Device IP"
+   },
+   "extension_name": {
+      "description": "extension name",
+      "message": "Smart LG TV remote control"
+   },
+   "extension_short_name": {
+      "description": "extension short name",
+      "message": "LG TV remote"
+   },
+   "font_size_label": {
+      "description": "font size selector label",
+      "message": "Font size:"
+   },
+   "input_list_label": {
+      "description": "inputs list dropdown label",
+      "message": "inputs"
+   },
+   "magic_remote_help": {
+      "description": "magic remote help",
+      "message": "This is magicremote (mouse and keyboard) experimental features page. Use mouse to move pointer on TV. When TV system keyboard active and TV edit control takes a focus, text editor appears above the 'mouse pad'. You can edit text and press enter to send text input to TV. To move PC mouse without moving TV pointer please hold Ctrl key or move cursor out of pad. TV pointer speed increases when mouse cursor in dark grey area. PC Home button works as TV Home. Cursor arrows works as TV remote arrows and allows to move TV pointer as well."
+   },
+   "magic_remote_title": {
+      "description": "Magic Remote feature page",
+      "message": "Magic Remote Experimental Feature page."
+   },
+   "open_link_on_tv": {
+      "description": "context menu item label",
+      "message": "Open link on LG TV"
+   },
+   "options_saved": {
+      "description": "Options saved message",
+      "message": "Options saved."
+   },
+   "purchase_message": {
+      "description": "purchase message",
+      "message": "You don't have a valid license or your trial period is expired. Please consider purchasing an extension."
+   },
+   "remind_purchase_message": {
+      "description": "remind me later message",
+      "message": "Remind me later"
+   },
+   "save": {
+      "description": "save button label",
+      "message": "save"
+   },
+   "settings_title": {
+      "description": "settings page title",
+      "message": "Extension settings"
+   },
+   "suggest_purchase_message": {
+      "description": "suggest purchase message",
+      "message": "Dear User, recently this extension became commercial, but for you it remains free as we do appreciate our loyal users using it from the very beginning:) However, if you like this extension, you can support us and further development by buying a license. Would you like to buy a license?"
+   }
+}

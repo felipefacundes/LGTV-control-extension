@@ -1,0 +1,82 @@
+{
+   "app_list_label": {
+      "description": "apps list dropdown label",
+      "message": "aplicaciones"
+   },
+   "background_color_label": {
+      "description": "color selector label",
+      "message": "Color de fondo de la ventana emergente:"
+   },
+   "channel_list_label": {
+      "description": "channel list dropdown label",
+      "message": "canales"
+   },
+   "channel_search_label": {
+      "description": "channel search dropdown label",
+      "message": "búsqueda de canales"
+   },
+   "clear_auth_cache": {
+      "description": "clear auth cache button label",
+      "message": "Borrar caché de autenticación"
+   },
+   "connection_to_device": {
+      "description": "connection test status message",
+      "message": "Conexión al dispositivo"
+   },
+   "device_ip_label": {
+      "description": "device ip input label",
+      "message": "IP del dispositivo"
+   },
+   "extension_name": {
+      "description": "extension name",
+      "message": "Control remoto inteligente de LG TV"
+   },
+   "extension_short_name": {
+      "description": "extension short name",
+      "message": "LG TV remote"
+   },
+   "font_size_label": {
+      "description": "font size selector label",
+      "message": "Tamaño de letra:"
+   },
+   "input_list_label": {
+      "description": "inputs list dropdown label",
+      "message": "entradas"
+   },
+   "magic_remote_help": {
+      "description": "magic remote help",
+      "message": "Esta es la página de funciones experimentales de magicremote (mouse y teclado). Use el mouse para mover el puntero en la TV. Cuando el teclado del sistema de TV está activo y el control de edición de TV se enfoca, el editor de texto aparece sobre la 'almohadilla del mouse'. edite el texto y presione Intro para enviar el ingreso de texto a la TV. Para mover el mouse de la PC sin mover el puntero de la TV, mantenga presionada la tecla Ctrl o mueva el cursor hacia afuera. La velocidad del puntero de la TV aumenta cuando el cursor del mouse se encuentra en el área de color gris oscuro. Las flechas del cursor funcionan como flechas del control remoto del televisor y también permiten mover el puntero del televisor."
+   },
+   "magic_remote_title": {
+      "description": "Magic Remote feature page",
+      "message": "Página da função Experimental Remota"
+   },
+   "open_link_on_tv": {
+      "description": "context menu item label",
+      "message": "Abrir enlace en TV LG"
+   },
+   "options_saved": {
+      "description": "Options saved message",
+      "message": "Opciones guardadas"
+   },
+   "purchase_message": {
+      "description": "purchase message",
+      "message": "No tiene una licencia válida o su período de prueba ha expirado. Por favor considere comprar una extensión."
+   },
+   "remind_purchase_message": {
+      "description": "remind me later message",
+      "message": "Recuérdame más tarde"
+   },
+   "save": {
+      "description": "save button label",
+      "message": "guardar"
+   },
+   "settings_title": {
+      "description": "settings page title",
+      "message": "Ajustes de extensión"
+   },
+   "suggest_purchase_message": {
+      "description": "suggest purchase message",
+      "message": "Estimado usuario, recientemente esta extensión se convirtió en comercial, pero para usted sigue siendo gratuita, ya que apreciamos que nuestros usuarios leales la utilicen desde el principio :) Sin embargo, si le gusta esta extensión, puede apoyarnos y desarrollarnos más comprando una licencia. Te gustaría comprar una licencia?"
+   }
+}

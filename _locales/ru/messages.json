@@ -1,0 +1,82 @@
+{
+   "app_list_label": {
+      "description": "apps list dropdown label",
+      "message": "приложенния"
+   },
+   "background_color_label": {
+      "description": "color selector label",
+      "message": "Цвет фона всплывающего окна:"
+   },
+   "channel_list_label": {
+      "description": "channel list dropdown label",
+      "message": "каналы"
+   },
+   "channel_search_label": {
+      "description": "channel search dropdown label",
+      "message": "поиск каналов"
+   },
+   "clear_auth_cache": {
+      "description": "clear auth cache button label",
+      "message": "очистить кеш авторизаций"
+   },
+   "connection_to_device": {
+      "description": "connection test status message",
+      "message": "Соедниение с устройством"
+   },
+   "device_ip_label": {
+      "description": "device ip input label",
+      "message": "IP адрес устройства:"
+   },
+   "extension_name": {
+      "description": "extension name",
+      "message": "Smart LG TV пульт управления"
+   },
+   "extension_short_name": {
+      "description": "extension short name",
+      "message": "LG TV пульт"
+   },
+   "font_size_label": {
+      "description": "font size selector label",
+      "message": "Размер шрифта:"
+   },
+   "input_list_label": {
+      "description": "inputs list dropdown label",
+      "message": "входы"
+   },
+   "magic_remote_help": {
+      "description": "magic remote help",
+      "message": "Это страница экспериментальной функций Magic Remote (мышь и клавиатура). Используйте мышь для перемещения указателя на экране телевизора. Когда клавиатура ТВ активна, а управление редактированием ТВ получило фокус, над 'ковриком для мыши' появляется текстовый редактор. Вы можете редактировать текст и нажать клавишу ввода, чтобы отправить введенный текст на телевизор. Чтобы перемещать компьютерную мышь без перемещения указателя телевизора, удерживайте клавишу Ctrl или выводите курсор за пределы панели. Скорость указателя телевизора увеличивается, когда курсор мыши находится в темно-серой области. Клавиша Home работает как TV Home. Стрелки курсора работают как стрелки пульта ТВ и позволяют перемещать указатель телевизора."
+   },
+   "magic_remote_title": {
+      "description": "Magic Remote feature page",
+      "message": "Cтраница экспериментальной функции Magic Remote"
+   },
+   "open_link_on_tv": {
+      "description": "context menu item label",
+      "message": "Открыть ссылку на LG ТВ"
+   },
+   "options_saved": {
+      "description": "Options saved message",
+      "message": "Настройки сохранены"
+   },
+   "purchase_message": {
+      "description": "purchase message",
+      "message": "У Вас нет лицензии на этот продукт или ваш пробный период истек."
+   },
+   "remind_purchase_message": {
+      "description": "remind me later message",
+      "message": "Напомнить позже"
+   },
+   "save": {
+      "description": "save button label",
+      "message": "сохранить"
+   },
+   "settings_title": {
+      "description": "settings page title",
+      "message": "настройки расширения"
+   },
+   "suggest_purchase_message": {
+      "description": "suggest purchase message",
+      "message": "Уважаемый пользователь, это расширение недавно стало коммерческим, но для вас оно все еще бесплатное, так как мы благодарим наших постоянных пользователей, которые используют его с самого начала :) Однако, если вам нравится это расширение, вы можете поддержать развитие расширения, приобретая лицензию. Хотите купить лицензию?"
+   }
+}

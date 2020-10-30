@@ -1,0 +1,82 @@
+{
+   "app_list_label": {
+      "description": "apps list dropdown label",
+      "message": "aplicações"
+   },
+   "background_color_label": {
+      "description": "color selector label",
+      "message": "Cor de fundo da janela pop-up:"
+   },
+   "channel_list_label": {
+      "description": "channel list dropdown label",
+      "message": "canais"
+   },
+   "channel_search_label": {
+      "description": "channel search dropdown label",
+      "message": "pesquisa de canais"
+   },
+   "clear_auth_cache": {
+      "description": "clear auth cache button label",
+      "message": "limpar cache de autenticação"
+   },
+   "connection_to_device": {
+      "description": "connection test status message",
+      "message": "Conexão ao dispositivo"
+   },
+   "device_ip_label": {
+      "description": "device ip input label",
+      "message": "IP do dispositivo"
+   },
+   "extension_name": {
+      "description": "extension name",
+      "message": "Smart telecomando LG TV"
+   },
+   "extension_short_name": {
+      "description": "extension short name",
+      "message": "LG TV remoto"
+   },
+   "font_size_label": {
+      "description": "font size selector label",
+      "message": "Tamanho da fonte:"
+   },
+   "input_list_label": {
+      "description": "inputs list dropdown label",
+      "message": "entradas"
+   },
+   "magic_remote_help": {
+      "description": "magic remote help",
+      "message": "Esta é a página de recursos experimentais magicremote (mouse e teclado). Use o mouse para mover o ponteiro na TV. Quando o teclado do sistema de TV estiver ativo e o controle de edição da TV tiver um foco, o editor de texto aparecerá acima do 'mouse pad'. edite o texto e pressione enter para enviar a entrada de texto para a TV. Para mover o mouse do PC sem mover o ponteiro da TV, mantenha a tecla Ctrl pressionada ou mova o cursor para fora do pad.A velocidade do ponteiro da TV aumenta quando o mouse está na área cinza. As setas do cursor funcionam como setas remotas da TV e permitem mover o ponteiro da TV também. "
+   },
+   "magic_remote_title": {
+      "description": "Magic Remote feature page",
+      "message": "Página de Característica Experimental de Magic Remote"
+   },
+   "open_link_on_tv": {
+      "description": "context menu item label",
+      "message": "Abrir link na LG TV"
+   },
+   "options_saved": {
+      "description": "Options saved message",
+      "message": "Opções salvas."
+   },
+   "purchase_message": {
+      "description": "purchase message",
+      "message": "Você não possui uma licença válida ou seu período de avaliação expirou. Por favor, considere comprar uma extensão."
+   },
+   "remind_purchase_message": {
+      "description": "remind me later message",
+      "message": "Lembre-me mais tarde"
+   },
+   "save": {
+      "description": "save button label",
+      "message": "salve"
+   },
+   "settings_title": {
+      "description": "settings page title",
+      "message": "Configurações de extensão"
+   },
+   "suggest_purchase_message": {
+      "description": "suggest purchase message",
+      "message": "Caro usuário, recentemente essa extensão se tornou comercial, mas para você ainda é gratuita, pois agradecemos que nossos usuários fiéis a usem desde o início :) No entanto, se você gosta dessa extensão, pode nos apoiar e nos desenvolver mais comprando um licença. Deseja comprar uma licença?"
+   }
+}
