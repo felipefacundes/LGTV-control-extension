@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head><title>LGTV Control Extension Options</title></head>
+    <link rel="stylesheet" type="text/css" href="css/options.css"/>
+    <script type="text/javascript" src="js/analytics.js"></script>
+    <script type="text/javascript" src="js/browser.js"></script>
+    <script type="text/javascript" src="js/jscolor.min.js"></script>
+    <body>
+        <div id="options" class="card">
+            <img id="tvicon" src="icons/tv.png"/>
+            <h1>
+                <span id="settingsTitle">
+            </h1>
+            <br>
+            <span id="deviceIpLabel"></span>
+            <br>
+            <input type="textbox" id="deviceip">
+            <br>
+            <br>
+            <span id="backgroundColorLabel"></span>
+            <br>
+            <input id="background_color" class="jscolor" value="#cee4d9">
+            <br>
+            <br>
+            <span id="fontSizeLabel"></span>
+            <br>
+            <select id="fontsize">
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+                <option value="22">22</option>
+                <option value="24">24</option>
+            </select>
+            <br>
+            <br>
+            <button id="saveButton"></button>
+            <br>
+            <br>
+            <!-- <button id="clearCache"></button> -->
+            <div id="status" ></div>
+        </div>
+        <script type="text/javascript" src="js/browser.js"></script>
+        <script type="text/javascript" src="js/EventEmitter.js"></script>
+        <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+        <script type="text/javascript" src="js/lgtv.js"></script>
+        <script type="text/javascript" src="js/options.js"></script>
+
+    </body>
+</html>

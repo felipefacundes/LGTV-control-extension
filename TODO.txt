@@ -1,0 +1,5 @@
+- sync storage
+- add channels/apps to favorites
+- store multiple TV ip/key
+- implement colored(satelite) buttons
+- UI color picker/theme selector

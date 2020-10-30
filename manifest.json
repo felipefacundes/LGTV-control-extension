@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/EventEmitter.js", "js/lgtv.js", "js/browser.js", "js/background.js", "js/materialize.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "resources/icon32.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "icons": {
+      "128": "resources/icon128.png",
+      "16": "resources/icon16.png",
+      "24": "resources/icon24.png",
+      "32": "resources/icon32.png",
+      "48": "resources/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAja9OJLlg3FnIFOq/tgCB7qoDuMspUrJ3c34BEJU3qmshI45sBxhmjFQSgdsKek/5zYpQkdV1JxZD0mmqjdoQ/EkswH94HmjS9gv1WNc/Kimwxlv9+b0fDGoDmHsqKuIdfSASCGsa4JErrfyjqBUoErCeNjFlnnIit6BvsJqkQaejsejPg/ICbis2GgojbTAKwkvIhPTDxvhnY6CGmHVkBkmOBaFoGIpOyMvCc3CO65YcdfEMaM9SaafbFXNky07msJhBK4G2iPWHk5059+fGBFcRajd0pVRgYAKZJjtCjdx9dRCkScPBKn2PA3qKDZRUlDpy4pVmsDn3+GIe6bfs0QIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_name__",
+   "oauth2": {
+      "client_id": "626232024812-uu6hlecur01me7vrsavnb5e7lh3is5ni.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+   },
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "contextMenus", "fullscreen", "alarms", "identity", "https://accounts.google.com/*", "https://www.googleapis.com/*" ],
+   "short_name": "__MSG_extension_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.47"
+}

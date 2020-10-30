@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>LGTV remote</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/materialize.css">
+        <link rel="stylesheet" type="text/css" href="css/purchase.css">
+        <link rel="stylesheet" type="text/css" href="css/tiny.css">
+        <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+
+        <script type="text/javascript" src="js/analytics.js"></script>
+        <script type="text/javascript" src="js/EventEmitter.js"></script>
+        <script type="text/javascript" src="js/browser.js"></script>
+        <script type="text/javascript" src="js/lgtv.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+    </head>
+    <body style="width:350px">
+        <div class="center-align lightgreen no-padding" id="purchaseDiv">
+            <div id="purchaseDivText">
+                <span id="purchaseMessage"></span>
+            </div>
+            <div id="purchaseButtons">
+                <a href="#!" class="btn waves-effect waves-red btn-small" title="purchase" id="purchase"><i class="material-icons">shopping_cart</i></a>
+            </div>
+        </div>
+        <div class="center-align lightgreen no-padding" id="suggestPurchaseDiv">
+            <div id="suggestPurchaseDivText">
+                <span id="suggestPurchaseMessage"></span>
+            </div>
+            <div id="suggestPurchaseButtons">
+                <a href="#!" class="btn waves-effect waves-red btn-small" title="purchaseyes" id="purchaseyes"><i class="material-icons">check_circle</i></a>
+                <a href="#!" class="btn waves-effect waves-red btn-small" title="purchaseno" id="purchaseno"><i class="material-icons">cancel</i></a>
+                <a href="#!" class="btn waves-effect waves-red btn-small" title="purchaceremind" id="purchaseremind"><span id="purchaseRemindMessage"></span></a>
+            </div>
+        </div>
+         <div class="section card center-align green lighten-3 no-padding">
+            <span id="devicename"></span>
+        </div>
+        <div class="col s10 no-padding">
+            <div class="row center-align">
+                <div class="col s3">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="power" id="power"><i class="material-icons">power_settings_new</i></a>
+                </div>
+                <div class="col s2">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="mute" id="mute"><i class="material-icons">volume_off</i></a>
+                </div>
+                <div class="col s2">
+                    <a href="#!" class="btn waves-effect waves-red btn-small disabled" title="3dmode" id="b3dmode"><i class="material-icons">3d_rotation</i></a>
+                </div>
+                <div class="col s2">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="settings" id="settings"><i class="material-icons">settings</i></a>
+                </div>
+                <div class="col s3">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" id="magicremote"><i class="material-icons">mouse</i></a>
+                </div>
+            </div>
+            <div class="row center-align">
+                <div class="col s3">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Home" id="home"><i class="material-icons">home</i></a>
+                </div>
+                <div class="col s6">
+                </div>
+                <div class="col s3">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Back" id="back"><i class="material-icons">refresh</i></a>
+                </div>
+            </div>
+
+            <div class="row center-align">
+                <div class="col s3">
+                    <div class="row">
+                        <a href="#!" class="btn waves-effect waves-red btn-small" title="Increase Volume" id="volumeup"><i class="material-icons">volume_up</i></a>
+                    </div>
+                    <div class="row">
+                        <span id="volumeLevel">0</span>
+                    </div>
+                    <div class="row">
+                        <a href="#!" class="btn waves-effect waves-red btn-small" title="Decrease Volume" id="volumedown"><i class="material-icons">volume_down</i></a>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="row center-align valign-wrapper">
+                        <div class="col s4">
+                            <a href="#!" class="btn waves-effect waves-red" id="rowleft"><i class="material-icons">arrow_back</i></a>
+                        </div>
+                        <div class="col s4">
+                            <a href="#!" class="btn waves-effect waves-red" id="rowup"><i class="material-icons">arrow_upward</i></a>
+                            <a href="#!" class="btn waves-effect waves-red" id="rowenter"><i class="material-icons">subdirectory_arrow_left</i></a>
+                            <a href="#!" class="btn waves-effect waves-red" id="rowdown"><i class="material-icons">arrow_downward</i></a>
+                        </div>
+                        <div class="col s4">
+                            <a href="#!" class="btn waves-effect waves-red" id="rowright"><i class="material-icons">arrow_forward</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="row">
+                        <a href="#!" class="btn waves-effect waves-red btn-small" title="Next Channel" id="channelup"><i class="material-icons">exposure_plus_1</i></a>
+                    </div>
+                    <div class="row">
+                        <span id="channelNumber">0</span>
+                    </div>
+                    <div class="row">
+                        <a href="#!" class="btn waves-effect waves-red btn-small" title="Previous Channel" id="channeldown"><i class="material-icons">exposure_neg_1</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row center-align">
+                <div class="col s3">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Previous" id="previous"><i class="material-icons">fast_rewind</i></a>
+                </div>
+                <div class="col s2">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Stop" id="stop"><i class="material-icons">stop</i></a>
+                </div>
+                <div class="col s2">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Play" id="play"><i class="material-icons">play_arrow</i></a>
+                </div>
+                <div class="col s2">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Pause" id="pause"><i class="material-icons">pause</i></a>
+                </div>
+                <div class="col s3">
+                    <a href="#!" class="btn waves-effect waves-red btn-small" title="Next" id="next"><i class="material-icons">fast_forward</i></a>
+                </div>
+            </div>
+            <div class="row center-align">
+                <div class="col s3">
+                    <a href="#!" class="btn red waves-effect waves-red btn-tiny" title="red" id="red_button"></a>
+                </div>
+                <div class="col s3">
+                    <a href="#!" class="btn green waves-effect waves-red btn-tiny" title="green" id="green_button"></a>
+                </div>
+                <div class="col s3">
+                    <a href="#!" class="btn yellow waves-effect waves-red btn-tiny" title="yellow" id="yellow_button"></a>
+                </div>
+                <div class="col s3">
+                    <a href="#!" class="btn blue waves-effect waves-red btn-tiny" title="blue" id="blue_button"></a>
+                </div>
+            </div>
+            <div class="section card center-align green lighten-5 no-padding">
+                <span id="channelName"></span>
+                :
+                <span id="programm"></span>
+            </div>
+        </div>
+        <div class="row center-align">
+            <a class="dropdown-trigger btn col s12 disabled" href="#" data-target="channelSelect" id="channelSelectDropdown"><span id="channelDropdown"></span><i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="channelSelect" class="dropdown-content">
+            </ul>
+        </div>
+        <div class="row input-field">
+            <i class="material-icons prefix">search</i>
+            <input type="text" id="channelsSearch" class="autocomplete">
+            <label for="channelsSearch" id="channelSearchLabel"></label>
+        </div>
+        <div class="container row center-align">
+            <a class="dropdown-trigger btn" href="#" data-target="appSelect"><span id="appDropdown"></span><i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="appSelect" class="dropdown-content">
+            </ul>
+            <a class="dropdown-trigger btn" href="#" data-target="inputSelect"><span id="inputDropdown"></span><i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="inputSelect" class="dropdown-content">
+            </ul>
+        </div>
+        <span id="status"></span>
+    </body>
+</html>
