@@ -1,0 +1,10 @@
+body {
+	font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+	font-size: 100%;
+}
+
+#tvicon
+{
+    width:60px;
+    height: auto;
+}
